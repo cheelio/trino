@@ -95,7 +95,6 @@ group-provider.name=ldap
 :::{list-table} Generic LDAP properties
 :widths: 40, 40, 20
 :header-rows: 1
-
 * - Property name
   - Description
   - Example
@@ -152,7 +151,6 @@ Group resolution behavior is controlled by the `ldap.use-group-filter` property.
 :::{list-table}
 :widths: 40, 60
 :header-rows: 1
-
 * - Property name
   - Description
 * - `ldap.use-group-filter`
@@ -162,11 +160,9 @@ Group resolution behavior is controlled by the `ldap.use-group-filter` property.
 
 Trino searches for group entries that include the user DN. This requires the following properties:
 
-
 :::{list-table}
 :widths: 40, 40, 20
 :header-rows: 1
-
 * - Property name
   - Description
   - Example
